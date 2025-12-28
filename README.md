@@ -70,6 +70,4 @@ This repository is provided under the MIT License. Add or update a `LICENSE` fil
 
 Open an issue or submit a pull request to discuss improvements or request examples.
 
----
 
-Small, focused examples make learning easier — ask me to add runnable scripts, convert examples into Maven/Gradle projects, or improve the README.
