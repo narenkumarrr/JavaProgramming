@@ -2,6 +2,7 @@
 public class trappingRainwater {
     public static int trappedRainwater(int height[]) {
         int trappedWater = 0;
+
         // calculate left max boundary -array
         int leftMax[] = new int[height.length];
         leftMax[0] = height[0];
@@ -9,6 +10,7 @@ public class trappingRainwater {
         for (int i = 1; i < height.length; i++) {
             leftMax[i] = Math.max(leftMax[i - 1], height[i]);
         }
+
         // calculate right max boundary array
         int rightMax[] = new int[height.length];
         rightMax[height.length - 1] = height[height.length - 1];
@@ -18,8 +20,10 @@ public class trappingRainwater {
         }
         // loop
         for (int i = 1; i < height.length - 1; i++) {
+
             // waterLevel = min(leftMax,rightMax)
             int waterLevel = Math.min(leftMax[i], rightMax[i]);
+
             // trappedWater = waterLevel-height[i]
             trappedWater += (waterLevel - height[i]);
         }
