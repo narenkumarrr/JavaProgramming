@@ -64,10 +64,7 @@ Note: These commands assume classes are in the default package (no `package` dec
 
 ## License
 
-This repository is provided under the MIT License. Add or update a `LICENSE` file if you prefer a different license.
+This repository is provided under the MIT License. 
 
-## Contact / support
-
-Open an issue or submit a pull request to discuss improvements or request examples.
 
 
